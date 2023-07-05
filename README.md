@@ -18,11 +18,11 @@ This repository contains my solutions for the assignments from the [Algorithmic 
 
 ## Week 3: Greedy Algorithms
 - [x] [Money change](solutions/3.1_money_change.py)
-- [x] [Maximum value of the loot ](solutions/3.2_maximum_value_of_the_loot.py)(Fractional knapsack)
+- [x] [Maximum value of the loot](solutions/3.2_maximum_value_of_the_loot.py) (Fractional knapsack)
 - [x] [Car fueling](solutions/3.3_car_fueling.py) (Covering points by segments)
-- [x] [Maximum advertisement revenue ](solutions/3.4_maximum_advertisement_revenue.py)(Maximum dot product)
-- [x] [Collecting signatures ](solutions/3.5_collecting_signatures.py)(Covering segments by points)
-- [x] [Maximum number of prizes ](solutions/3.6_maximum_number_of_prizes.py)(Distinct summands)
+- [x] [Maximum advertisement revenue](solutions/3.4_maximum_advertisement_revenue.py) (Maximum dot product)
+- [x] [Collecting signatures](solutions/3.5_collecting_signatures.py) (Covering segments by points)
+- [x] [Maximum number of prizes](solutions/3.6_maximum_number_of_prizes.py) (Distinct summands)
 - [ ] [Maximum salary](solutions/3.7_maximum_salary.py) 
 
 ## Week 4: Divide-and-Conquer
