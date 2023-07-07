@@ -1,6 +1,6 @@
 # Coursera-Algorithmic-Toolbox
 
-This repository contains my solutions (written in Python 3) for the assignments from the [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox) course at Coursera. Problem statements can be found [here](problem_statements.pdf).
+This repository contains my solutions (in Python 3) for the assignments from the [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox) course at Coursera. Problem statements can be found [here](problem_statements.pdf).
 
 ## Week 1: Programming Challenges
 - [x] [Sum of two digits](solutions/1.1_sum_of_two_digits.py)
