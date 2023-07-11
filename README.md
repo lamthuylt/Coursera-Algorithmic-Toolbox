@@ -29,3 +29,7 @@ This repository contains my solutions (in Python 3) for the assignments from the
 - [x] [Binary search](solutions/4.1_binary_search.py)
 - [x] [Binary search with duplicates](solutions/4.2_binary_search_duplicates.py)
 - [x] [Majority element problem](solutions/4.3_majority_element.py)
+- [ ] [Improving quicksort](solutions/4.4.py)
+- [ ] [Number of inversions](solutions/4.5.py)
+- [ ] [Organizing a lottery](solutions/4.6.py)
+- [ ] [Closest points](solutions/4.7.py)
