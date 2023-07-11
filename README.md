@@ -26,3 +26,4 @@ This repository contains my solutions (in Python 3) for the assignments from the
 - [ ] [Maximum salary](solutions/3.7_maximum_salary.py) 
 
 ## Week 4: Divide-and-Conquer
+- [x] [Binary search](solutions/4.1_binary_search.py)
