@@ -11,9 +11,10 @@ def binary_search(keys, query, l, r):
     elif query < keys[mid]:
         return binary_search(keys, query, l, mid)
     elif query > keys[mid]:
-        return binary_search(keys, query, mid+1, r)  # index offset mid+1
+        return binary_search(keys, query, mid+1, r)  
 
 if __name__ == '__main__':
+    ### read inputs from file
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     f = open("4.1_input.json", "r")
     lines = f.readlines()
@@ -22,7 +23,7 @@ if __name__ == '__main__':
     num_queries = int(lines[2])
     input_queries = list(map(int, lines[3].split()))
 
-
+    ### insert inputs by hands
     # num_keys = int(input())
     # input_keys = list(map(int, input().split()))
     # assert len(input_keys) == num_keys
