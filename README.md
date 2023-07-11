@@ -27,3 +27,4 @@ This repository contains my solutions (in Python 3) for the assignments from the
 
 ## Week 4: Divide-and-Conquer
 - [x] [Binary search](solutions/4.1_binary_search.py)
+- [x] [Binary search with duplicates](solutions/4.2_binary_search_duplicates.py)
