@@ -2,6 +2,13 @@ from random import randint
 
 
 def partition3(array, left, right):
+    """
+    Partition array into 3 parts: 
+    p1. array[left:m1-1]: element < pivot
+    p2. array[m1:m2]: element = pivot (the left most element in initial array)
+    p3. array[m2+1:right]: element > pivot
+    To compared with 2 part partition, this 3 part partition helps to handle equal elements.
+    """
     pivot = array[left]
     m1, m2 = left , left
     for i, element in enumerate(array[left + 1:right+1]):
@@ -19,6 +26,12 @@ def partition3(array, left, right):
 
 
 def randomized_quick_sort(array, left, right):
+    """
+    Algo: 
+    Randomly choose a number between left and right to be the pivot
+    Sort elements smaller to the pivot to its left and those greater to the pivot to its right.
+    Recursively repeat the process until the initial array is compmetely sorted.
+    """
     if left >= right:
         return
     k = randint(left, right)
