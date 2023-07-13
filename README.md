@@ -30,6 +30,6 @@ This repository contains my solutions (in Python 3) for the assignments from the
 - [x] [Binary search with duplicates](solutions/4.2_binary_search_duplicates.py)
 - [x] [Majority element problem](solutions/4.3_majority_element.py)
 - [x] [Improving quicksort](solutions/4.4_improving_quicksort.py) (to handle equal elements)
-- [ ] [Number of inversions](solutions/4.5_number_of_inversions.py) (Modified Merge sort)
+- [x] [Number of inversions](solutions/4.5_number_of_inversions.py) (Modified Merge sort)
 - [ ] [Organizing a lottery](solutions/4.6.py)
 - [ ] [Closest points](solutions/4.7.py)
