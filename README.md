@@ -31,5 +31,5 @@ This repository contains my solutions (in Python 3) for the assignments from the
 - [x] [Majority element problem](solutions/4.3_majority_element.py)
 - [x] [Improving quicksort](solutions/4.4_improving_quicksort.py) (to handle equal elements)
 - [x] [Number of inversions](solutions/4.5_number_of_inversions.py) (Modified Merge sort)
-- [ ] [Organizing a lottery](solutions/4.6.py)
+- [x] [Organizing a lottery](solutions/4.6_points_and_segements.py) (Points and segments)
 - [ ] [Closest points](solutions/4.7.py)
