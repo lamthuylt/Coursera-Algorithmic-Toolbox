@@ -41,9 +41,8 @@ def points_cover_fast(starts, ends, points):
     line = starts + points + ends 
     label = [0] * len(starts) + [1] * len(points) + [2] * len(ends) # label of priority order in sorting
 
-    # sort all coordinates such that for same coordinates, sort by their label in the order: 
-    # start -> point -> end so that if a point coincides a segment extremes, the point will 
-    # be placed between two segment's extremes
+    # sort all coordinates such that for same coordinates, sort by their label in the order: start -> point -> end 
+    # so that if a point coincides a segment extremes, the point will be placed between two segment's extremes
     line, label = zip(*sorted(zip(line,label), key=lambda x: (x[0], x[1]))) 
 
     cover = 0   # counter of the number of segments covering a position on the line
