@@ -36,6 +36,7 @@ def minimum_distance_strip(points_x_sorted, min_d_intra):
     
     return min_d_inter
 
+
 def minimum_distance_squared_fast(points):
     n = len(points)
     points = sorted(points, key = lambda p: (p.x, p.y))
@@ -56,7 +57,6 @@ def minimum_distance_squared_fast(points):
         
     return min(min_d_intra, min_d_inter)
     
-
 
 def minimum_distance_squared_naive(points):
     min_distance_squared = float("inf")
