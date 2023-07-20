@@ -32,4 +32,4 @@ This repository contains my solutions (in Python 3) for the assignments from the
 - [x] [Improving quicksort](solutions/4.4_improving_quicksort.py) (to handle equal elements)
 - [x] [Number of inversions](solutions/4.5_number_of_inversions.py) (Modified Merge sort)
 - [x] [Organizing a lottery](solutions/4.6_points_and_segments.py) (Points and segments)
-- [ ] [Closest points](solutions/4.7.py)
+- [x] [Closest points](solutions/4.7_closest_points.py)
